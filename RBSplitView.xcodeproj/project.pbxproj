@@ -706,100 +706,6 @@
 			};
 			name = Release;
 		};
-		3D50A1491162C04C002A5832 /* Release Snow Leopard */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D508879A0AA1D2A100F4ECB3 /* RB.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				PRODUCT_NAME = RBSplitView;
-				SDKROOT = macosx;
-			};
-			name = "Release Snow Leopard";
-		};
-		3D50A1561162C04C002A5832 /* Release Snow Leopard */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEPLOYMENT_POSTPROCESSING = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "Source/Framework-Info.plist";
-				INSTALL_PATH = "@executable_path/../Frameworks";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PRODUCT_NAME = RBSplitView;
-				SEPARATE_STRIP = YES;
-				ZERO_LINK = NO;
-			};
-			name = "Release Snow Leopard";
-		};
-		3D50A17D1162C349002A5832 /* Release Leopard */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D508879A0AA1D2A100F4ECB3 /* RB.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				PRODUCT_NAME = RBSplitView;
-				SDKROOT = macosx;
-			};
-			name = "Release Leopard";
-		};
-		3D50A18A1162C349002A5832 /* Release Leopard */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEPLOYMENT_POSTPROCESSING = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "Source/Framework-Info.plist";
-				INSTALL_PATH = "@executable_path/../Frameworks";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PRODUCT_NAME = RBSplitView;
-				SEPARATE_STRIP = YES;
-				ZERO_LINK = NO;
-			};
-			name = "Release Leopard";
-		};
 		3D50A1A81162C6E3002A5832 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -863,64 +769,6 @@
 			};
 			name = Release;
 		};
-		3D50A1AA1162C6E3002A5832 /* Release Leopard */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/RBSplitView.framework/Resources/";
-				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-					"$(inherited)",
-					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(BUILD_DIR)/$(CONFIGURATION)\"";
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "Plugin/Plugin-Info.plist";
-				INSTALL_PATH = "@loader_path/../Frameworks";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PRODUCT_NAME = RBSplitView;
-				WRAPPER_EXTENSION = ibplugin;
-			};
-			name = "Release Leopard";
-		};
-		3D50A1AB1162C6E3002A5832 /* Release Snow Leopard */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/RBSplitView.framework/Resources/";
-				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-					"$(inherited)",
-					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(BUILD_DIR)/$(CONFIGURATION)\"";
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "Plugin/Plugin-Info.plist";
-				INSTALL_PATH = "@loader_path/../Frameworks";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PRODUCT_NAME = RBSplitView;
-				WRAPPER_EXTENSION = ibplugin;
-			};
-			name = "Release Snow Leopard";
-		};
 		3D50A21E1162C9A2002A5832 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -943,22 +791,6 @@
 			};
 			name = Release;
 		};
-		3D50A2201162C9A2002A5832 /* Release Leopard */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				PRODUCT_NAME = All;
-			};
-			name = "Release Leopard";
-		};
-		3D50A2211162C9A2002A5832 /* Release Snow Leopard */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				PRODUCT_NAME = All;
-			};
-			name = "Release Snow Leopard";
-		};
 		3D50A3061162D557002A5832 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -976,24 +808,6 @@
 				PRODUCT_NAME = SampleApp;
 			};
 			name = Release;
-		};
-		3D50A3081162D557002A5832 /* Release Leopard */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Sample App/SampleApp-Info.plist";
-				PRODUCT_NAME = SampleApp;
-			};
-			name = "Release Leopard";
-		};
-		3D50A3091162D557002A5832 /* Release Snow Leopard */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Sample App/SampleApp-Info.plist";
-				PRODUCT_NAME = SampleApp;
-			};
-			name = "Release Snow Leopard";
 		};
 		3D50A3151162D621002A5832 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1013,22 +827,6 @@
 			};
 			name = Release;
 		};
-		3D50A3171162D621002A5832 /* Release Leopard */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				PRODUCT_NAME = libRBSplitView;
-			};
-			name = "Release Leopard";
-		};
-		3D50A3181162D621002A5832 /* Release Snow Leopard */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				PRODUCT_NAME = libRBSplitView;
-			};
-			name = "Release Snow Leopard";
-		};
 		3D50A3491162D826002A5832 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1047,28 +845,11 @@
 			};
 			name = Release;
 		};
-		3D50A34B1162D826002A5832 /* Release Leopard */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Sample App/SampleApp-Info.plist";
-				PRODUCT_NAME = SampleApp;
-			};
-			name = "Release Leopard";
-		};
-		3D50A34C1162D826002A5832 /* Release Snow Leopard */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Sample App/SampleApp-Info.plist";
-				PRODUCT_NAME = SampleApp;
-			};
-			name = "Release Snow Leopard";
-		};
 		D50F207008A01A630073A261 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D508879A0AA1D2A100F4ECB3 /* RB.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
@@ -1085,6 +866,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D508879A0AA1D2A100F4ECB3 /* RB.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
@@ -1105,8 +887,6 @@
 			buildConfigurations = (
 				3D50A1421162C02D002A5832 /* Debug */,
 				3D50A1431162C02D002A5832 /* Release */,
-				3D50A18A1162C349002A5832 /* Release Leopard */,
-				3D50A1561162C04C002A5832 /* Release Snow Leopard */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1116,8 +896,6 @@
 			buildConfigurations = (
 				3D50A1A81162C6E3002A5832 /* Debug */,
 				3D50A1A91162C6E3002A5832 /* Release */,
-				3D50A1AA1162C6E3002A5832 /* Release Leopard */,
-				3D50A1AB1162C6E3002A5832 /* Release Snow Leopard */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1127,8 +905,6 @@
 			buildConfigurations = (
 				3D50A21E1162C9A2002A5832 /* Debug */,
 				3D50A21F1162C9A2002A5832 /* Release */,
-				3D50A2201162C9A2002A5832 /* Release Leopard */,
-				3D50A2211162C9A2002A5832 /* Release Snow Leopard */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1138,8 +914,6 @@
 			buildConfigurations = (
 				3D50A3061162D557002A5832 /* Debug */,
 				3D50A3071162D557002A5832 /* Release */,
-				3D50A3081162D557002A5832 /* Release Leopard */,
-				3D50A3091162D557002A5832 /* Release Snow Leopard */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1149,8 +923,6 @@
 			buildConfigurations = (
 				3D50A3151162D621002A5832 /* Debug */,
 				3D50A3161162D621002A5832 /* Release */,
-				3D50A3171162D621002A5832 /* Release Leopard */,
-				3D50A3181162D621002A5832 /* Release Snow Leopard */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1160,8 +932,6 @@
 			buildConfigurations = (
 				3D50A3491162D826002A5832 /* Debug */,
 				3D50A34A1162D826002A5832 /* Release */,
-				3D50A34B1162D826002A5832 /* Release Leopard */,
-				3D50A34C1162D826002A5832 /* Release Snow Leopard */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1171,8 +941,6 @@
 			buildConfigurations = (
 				D50F207008A01A630073A261 /* Debug */,
 				D50F207108A01A630073A261 /* Release */,
-				3D50A17D1162C349002A5832 /* Release Leopard */,
-				3D50A1491162C04C002A5832 /* Release Snow Leopard */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
